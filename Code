@@ -1,0 +1,102 @@
+var Bot = require('discord-bot');
+ 
+var bot = new Bot({
+    email: <email>,
+    password: <pass>
+});
+ 
+bot
+    .on(bot.triggers.command, '.spam goatse')
+    .do(function(bot, conf, args) {
+        this.reply('http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg
+http://goatse.info/hello.jpg');
+    });
+ 
+bot.connect();
+import discord
+import asyncio
+import requests
+import subprocess
+import threading
+import sys
+import os
+import time
+
+client = discord.Client(@Mr. Meme#7297)
+inEmail = input("marleykershaw")
+inPassword = input("lolmalv12")
+if os.name == "nt":
+	os.system("cls")
+if os.name == "posix":
+	os.system("clear")
+
+helpMessage = ("+++++++++++++++++++++++++++++++++\n"
+			   "+type 'help' to get help        +\n"
+			   "+type 'exit' to exit the script +\n"
+			   "type 'start' to start the attack+\n"
+			   "+++++++++++++++++++++++++++++++++"
+			   )
+@client.event
+@asyncio.coroutine			   
+def on_ready():
+	while 1:
+		command = input(" # ")
+		if command == "start":
+			count = int(input("300000"))
+			spamText = input("http://goatse.info/hello.jpg")
+			uName = input("uName")
+			targetUser = [m for m in client.get_all_members() if m.name == uName]
+			print(targetUser)
+			if count > 0 and count <= 1000:
+				for i in range(count):
+					client.send_message(targetUser[0], spamText)
+					time.sleep(0.7)
+		if command == "exit":
+			print("exiting script")
+			sys.exit(1)
+		if command == "help":
+			print(helpMessage)
+	return;
+client.run(inEmail, inPassword)
